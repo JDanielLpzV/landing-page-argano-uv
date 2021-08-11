@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 <body>
@@ -17,13 +19,38 @@
     <main>
         <section id="portfolio">
             <!-- # -->
-            <h2 class="display-2">Prueba</h1>
         </section> 
         <section id="about">
             <!-- # -->
         </section> 
-        <section id="contact">
-                <!-- # -->
+        <section id="contact" class="d-flex flex-column align-items-center w-100 flex-nowrap">
+            
+            <h3 class="h3 bg-white font-weight-bold my-3 text-center">CONTACT ME</h3>
+            <i class="fa fa-star "></i>
+            <form class=" my-3 w-75">
+                <div class="d-flex flex-column align-items-center flex-nowrap">
+
+                    <div class="form-group mb-3 col-12 col sm-11 col-md-10 col-lg-9 col-xl-8">
+                        <input type="text" class="form-control" id="name" placeholder="Name" value="" required>
+                    </div> 
+
+                    <div class="form-group mb-3 col-12 col sm-11 col-md-10 col-lg-9 col-xl-8">
+                        <input type="email" class="form-control" id="email" placeholder="Email address" value="" required>
+                    </div>
+
+                    <div class="form-group mb-3  col-12 col sm-11 col-md-10 col-lg-9 col-xl-8">
+                        <input type="tel" class="form-control" id="phone" placeholder="Phone number" value="" required>
+                    </div>
+
+                    <div class="form-group mb-3 col-12 col sm-11 col-md-10 col-lg-9 col-xl-8">
+                        <textarea class="form-control " id="message" placeholder="Message" rows="4" required></textarea>
+                    </div>
+
+                    <button class="btn btn-success py-2 mb-3 col-10 col sm-10 col-md-4 col-lg-4 col-xl-2" type="submit">Send </button>
+                </div>
+            
+            </form>
+
         </section> 
     </main>
     <footer>
