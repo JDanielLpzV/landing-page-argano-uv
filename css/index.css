@@ -42,10 +42,12 @@ a {
 
 .navbar a{
     color:white;
+    transform: scale(1.1,1);
 }
 
  .navbar-brand {
     font-size: 1.75em;
+    
 }
 
 .nav-link{
