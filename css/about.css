@@ -11,6 +11,20 @@ No media query since this is the default in Bootstrap */
   font-size: 1.25rem;
   font-weight: 300;
 }
+.star-w {
+  color: white;
+  font-size: 2rem;
+  width: 1.125em;
+}
+
+.line-w {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: white;
+  border-radius: 1rem;
+  border-color: white;
+}
 #about h2 {
   color: #f2f2f2;
 }
