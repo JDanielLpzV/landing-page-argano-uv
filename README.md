@@ -7,10 +7,11 @@
 - [x] Installation and environment preparation
 - [x] Install dependencies
 - [x] Project structure
-- [x] Nav bar
-- [x] Start section
+- [ ] Nav bar
+- [ ] Start section
 - [x] Portfolio section
-- [ ] Portfolio item hover effect and popup window
+- [x] Portfolio item hover effect
+- [ ] Popup window
 - [x] About section
 - [x] Contact section
-- [x] Footer section
+- [ ] Footer section
