@@ -1,20 +1,15 @@
 #portfolio {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background: white;
 }
-
 .portfolio-container {
   height: 100%;
+  width: 100%;
 }
-.portfolio-item {
-  width: 350px;
-  height: 200px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
-  background-color: blue;
-}
-.portfolio-item:hover {
-  background: #1abc9c4f;
+.portfolio-item img {
+  width: 100%;
+  height: auto;
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
