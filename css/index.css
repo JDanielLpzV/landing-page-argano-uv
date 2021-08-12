@@ -85,3 +85,53 @@ hr {
 .start-subtitule{
     font-size:1.4em;
 }
+
+
+.modal-dialog{
+    max-width: 1140px;
+    
+}
+.modal-content{
+    border-radius: 0.75em;
+}
+.modal img{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+button .close{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 1em 0 0;
+}
+
+.modal hr{
+    background-color: black;
+    
+}
+
+  .modal .divider-custom {
+    display: flex;
+    margin: auto;
+    
+}
+
+.modal .close{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 15px 0 0;
+}
+.modal .close-modal{
+    margin: auto;
+    display: block;
+    background-color: #1abc9c;
+    color:white;
+}
+
+.modal-info{
+    width: 100%;
+    margin: auto;
+    padding: 1em 4em;
+    text-align: center;
+}
