@@ -3,7 +3,7 @@ No media query since this is the default in Bootstrap */
 
 #contact {
   background: white;
-  height: 100vh;
+  height: 100%;
   padding: 10%;
 }
 .star {
