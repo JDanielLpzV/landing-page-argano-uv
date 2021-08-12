@@ -1,8 +1,39 @@
+/*Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
 #about {
   background: #1abc9c;
   width: 100%;
   padding: 10%;
 }
-#about h3 {
-  color: azure;
+#about h2 {
+  color: #f2f2f2;
+}
+#about i {
+  color: #f2f2f2;
+}
+#about #info div {
+  color: #f2f2f2;
+  width: 100%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #about #info div {
+    width: 60%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #about #info div {
+    width: 50%;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
