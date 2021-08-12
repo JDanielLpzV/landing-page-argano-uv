@@ -1,16 +1,16 @@
 # Landing Page for ArganoUV training
-###This is a landing page for the training process in ArganoUV 
+### This is a landing page for the training process in ArganoUV 
 
 ## Tasks
 - [x] Create a GIT repo
-- [ ] Create initial commit
-- [ ] Installation and environment preparation
-- [ ] Install dependencies
-- [ ] Project structure
-- [ ] Nav bar
-- [ ] Start section
-- [ ] Portfolio section
+- [x] Create initial commit
+- [x] Installation and environment preparation
+- [x] Install dependencies
+- [x] Project structure
+- [x] Nav bar
+- [x] Start section
+- [x] Portfolio section
 - [ ] Portfolio item hover effect and popup window
-- [ ] About section
-- [ ] Contact section
-- [ ] Footer section
+- [x] About section
+- [x] Contact section
+- [x] Footer section
