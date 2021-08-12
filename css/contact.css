@@ -1,19 +1,64 @@
 /*Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap */
+
 #contact {
-  background: #f2f2f2;
+  background: white;
+  height: 100vh;
+  padding: 10%;
 }
 form {
   margin-top: 50px;
   width: 95%;
 }
-form h3 {
-  font-family: "Raleway", sans-serif;
-}
 form .btn {
   background: #1abc9c;
-  color: #f2f2f2;
+  color: white;
 }
+form .btn h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  background-color: white !important;
+  border: none !important;
+  outline: none !important ;
+}
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+.title-section {
+  font-size: 2.25em;
+  line-height: 2rem;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   #contact {
@@ -37,6 +82,10 @@ form .btn {
 @media (min-width: 992px) {
   form {
     width: 40%;
+  }
+  .title-section {
+    font-size: 3rem;
+    line-height: 2.5rem;
   }
 }
 
