@@ -2,9 +2,28 @@
 No media query since this is the default in Bootstrap */
 
 #about {
-  background: #1abc9c;
+  background: hsl(168, 76%, 42%);
   width: 100%;
-  padding: 10%;
+  height: 100vh;
+  padding-top: 10%;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.star-w {
+  color: white;
+  font-size: 2rem;
+  width: 1.125em;
+}
+
+.line-w {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: white;
+  border-radius: 1rem;
+  border-color: white;
 }
 #about h2 {
   color: #f2f2f2;
@@ -12,28 +31,37 @@ No media query since this is the default in Bootstrap */
 #about i {
   color: #f2f2f2;
 }
+#about-container {
+  width: 100%;
+}
 #about #info div {
   color: #f2f2f2;
-  width: 100%;
+  width: 95vw;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   #about #info div {
-    width: 60%;
+    width: 95vw;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #about #info div {
-    width: 50%;
+    width: 90vw;
   }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  #about #info div {
+    width: 50%;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  #about #info div {
+    width: 30%;
+  }
 }
