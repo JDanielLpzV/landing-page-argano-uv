@@ -2,7 +2,7 @@
 No media query since this is the default in Bootstrap */
 #contact {
   margin-top: 10%;
-  padding: 40px;
+
   background: azure;
 }
 form {
@@ -18,13 +18,19 @@ form .btn {
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  #contact {
+    padding: 0px;
+  }
   form {
-    width: 70%;
+    width: 100%;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  #contact {
+    padding: 10px;
+  }
   form {
     width: 50%;
   }
