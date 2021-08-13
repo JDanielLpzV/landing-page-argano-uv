@@ -6,6 +6,9 @@ No media query since this is the default in Bootstrap */
   height: 80vh;
   padding: 9%;
 }
+#contact hr {
+  background: #2c3e50;
+}
 .star {
   color: #2c3e50;
   font-size: 2rem;
@@ -90,7 +93,7 @@ input[type="number"]:focus,
     padding: 9%;
   }
   form {
-    width: 50%;
+    width: 60%;
   }
 }
 /* Large devices (desktops, 992px and up) */
@@ -100,7 +103,7 @@ input[type="number"]:focus,
     padding: 9%;
   }
   form {
-    width: 40%;
+    width: 60%;
   }
   .title-section {
     font-size: 3rem;
@@ -115,6 +118,6 @@ input[type="number"]:focus,
     padding: 8%;
   }
   form {
-    width: 35%;
+    width: 65%;
   }
 }
