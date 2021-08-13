@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Boostrap 4.3.1  -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/index.css">
-    
+    <!-- Custom JS -->
     <script src="app.js"></script>
+
+    <!-- Fonts -->
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/portfolio.css">
 
     <title>Landing Page</title>
 </head>
+
 <body data-spy="scroll" data-target="#menuNav">
+
     <header>
-        <!-- menu navbar flexbox-->
+        <!-- Flexbox Nav Menu -->
         <nav class="navbar navbar-expand-lg text-uppercase navbar-dark" id="menuNav">
             <!-- title / logo-->
             <a class="navbar-brand " href="#">Start Bootstrap</a>
-            <!-- navbar toggle button-->
+            <!-- Navbar toggle button-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
-                <!-- menu list -->
+            <!-- Menu list -->
               <ul class="navbar-nav ">
                 <li class="nav-item py-2 px-0 px-lg-2 active">
                   <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -52,11 +60,11 @@
     <main>
         <section class="start-content text-white text-center " id="start">
             <div class="container d-flex align-items-center flex-column mt-5">
-                <!-- section image-->
+                <!-- Image Section-->
                 <img class="mb-5 mt-5" style="width: 15rem;" src="assets/img/avatar.svg" alt="..." />
-                <!-- Masthead Heading-->
+                <!-- Heading Title-->
                 <h1 class="start-title text-uppercase mb-0">Start Bootstrap</h1>
-                <!-- icon divider-->
+                <!-- Icon divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="row align-items-center">
@@ -65,7 +73,7 @@
                         <div class="col"><hr style="width: 100px;"></div>
                     </div>                    
                 </div>
-                <!--section subtitle-->
+                <!--Section subtitle-->
                 <p class="start-subtitule mb-0">Graphic Artist - Web Designer - Illustrator</p>
             </div>
         </section>
@@ -74,7 +82,7 @@
             <div class="container-fluid">
                 <div class="d-flex flex-column align-items-center">
                     <h2 class="h2 title-section text-center">PORTFOLIO</h2>
-                    <!-- icon divider-->
+                    <!-- Icon divider-->
                     <div class="divider-custom divider-light">
                         <div class="divider-custom-line"></div>
                         <div class="row align-items-center">
@@ -84,7 +92,7 @@
                         </div>                    
                     </div>
                 <div class="portfolio-container my-4 d-flex flex-row justify-content-center flex-wrap ">
-                    <div class="portfolio-item rounded-lg mx-3 my-4 col-10 col-sm-8 col-md-5 col-lg-3 d-flex justify-content-center align-items-center">
+                    <div class="portfolio-item rounded-lg mx-3 my-4 col-10 col-sm-8 col-md-5 col-lg-3 d-flex justify-content-center align-items-center" type="button" data-toggle="modal" data-target="#modal1">
                         <img class="img-fluid rounded-lg" src="./assets/img/portfolio/cabin.png" alt="Cabin image">
                         <div class="overlay rounded-lg">
                             <a href="#" class="icon" title="open">
@@ -146,9 +154,9 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-                <h5 class="modal-title text-center" id="modal1Title">Log Cabin</h5>
+                <h5 class="modal-title text-center text-uppercase" id="modal1Title">Log Cabin</h5>
                 
-                <div class="divider-custom divider-light">
+                <div class="divider-custom divider-light mt-3">
                     <div class="divider-custom-line"></div>
                     <div class="row align-items-center">
                         <div class="col"><hr style="width: 100px;"></div>
@@ -160,7 +168,7 @@
                 <div class="modal-body">
                     <img class="img-fluid  mb-5" src="assets/img/portfolio/cabin.png" alt="">
                     <p class="modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                    <button type="button" class="btn close-modal" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn close-modal" data-dismiss="modal"><i class='bx bx-x'></i>Close Window</button>
                 </div>
 
             </div>
@@ -178,7 +186,7 @@
                 </button>
                 <h5 class="modal-title text-center text-uppercase" id="modal2Title">Tasty Cake</h5>
                 
-                <div class="divider-custom divider-light">
+                <div class="divider-custom divider-light mt-3">
                     <div class="divider-custom-line"></div>
                     <div class="row align-items-center">
                         <div class="col"><hr style="width: 100px;"></div>
@@ -190,7 +198,7 @@
                 <div class="modal-body">
                     <img class="img-fluid  mb-5" src="assets/img/portfolio/cake.png" alt="">
                     <p class="modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                    <button type="button" class="btn close-modal" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn close-modal" data-dismiss="modal"><i class='bx bx-x'></i>Close Window</button>
                 </div>
 
             </div>
@@ -208,7 +216,7 @@
                 </button>
                 <h5 class="modal-title text-center text-uppercase" id="modal3Title">Circus Tent</h5>
                 
-                <div class="divider-custom divider-light">
+                <div class="divider-custom divider-light mt-3">
                     <div class="divider-custom-line"></div>
                     <div class="row align-items-center">
                         <div class="col"><hr style="width: 100px;"></div>
@@ -220,7 +228,7 @@
                 <div class="modal-body">
                     <img class="img-fluid  mb-5" src="assets/img/portfolio/circus.png" alt="">
                     <p class="modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                    <button type="button" class="btn close-modal" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn close-modal" data-dismiss="modal"><i class='bx bx-x'></i>Close Window</button>
                 </div>
 
             </div>
@@ -238,7 +246,7 @@
                 </button>
                 <h5 class="modal-title text-center text-uppercase" id="modal4Title">Controller</h5>
                 
-                <div class="divider-custom divider-light">
+                <div class="divider-custom divider-light mt-3">
                     <div class="divider-custom-line"></div>
                     <div class="row align-items-center">
                         <div class="col"><hr style="width: 100px;"></div>
@@ -250,7 +258,7 @@
                 <div class="modal-body">
                     <img class="img-fluid  mb-5" src="assets/img/portfolio/game.png" alt="">
                     <p class="modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                    <button type="button" class="btn close-modal" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn close-modal" data-dismiss="modal"><i class='bx bx-x'></i>Close Window</button>
                 </div>
 
             </div>
@@ -267,7 +275,7 @@
                 </button>
                 <h5 class="modal-title text-center text-uppercase" id="modal5Title">Locked Safe</h5>
                 
-                <div class="divider-custom divider-light">
+                <div class="divider-custom divider-light mt-3">
                     <div class="divider-custom-line"></div>
                     <div class="row align-items-center">
                         <div class="col"><hr style="width: 100px;"></div>
@@ -279,7 +287,7 @@
                 <div class="modal-body">
                     <img class="img-fluid mb-5" src="assets/img/portfolio/safe.png" alt="">
                     <p class="modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                    <button type="button" class="btn close-modal" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn close-modal" data-dismiss="modal"><i class='bx bx-x'></i>Close Window</button>
                 </div>
 
             </div>
@@ -296,7 +304,7 @@
                 </button>
                 <h5 class="modal-title text-center text-uppercase" id="modal6Title">Submarine</h5>
                 
-                <div class="divider-custom divider-light">
+                <div class="divider-custom divider-light mt-3">
                     <div class="divider-custom-line"></div>
                     <div class="row align-items-center">
                         <div class="col"><hr style="width: 100px;"></div>
@@ -308,7 +316,7 @@
                 <div class="modal-body">
                     <img class="img-fluid mb-5" src="assets/img/portfolio/submarine.png" alt="">
                     <p class="modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                    <button type="button" class="btn close-modal" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn close-modal" data-dismiss="modal"><i class='bx bx-x'></i>Close Window</button>
                 </div>
 
             </div>
@@ -396,11 +404,11 @@
             </div>
         </section> 
     </main>
-    <!-- footer of page-->
+    <!-- Footer of page-->
     <footer class="text-center pt-5">
         <div class="container pb-5 pt-2" >
             <div class="row">
-                <!-- contact info-->
+                <!-- Contact info-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">Location</h4>
                     <p class="lead mb-0">
@@ -409,7 +417,7 @@
                         Clark, MO 65243
                     </p>
                 </div>
-                <!-- social icons-->
+                <!-- Social icons-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">Around the Web</h4>
                     <a class="btn btn-outline-light mx-1" href="#!"><i class='bx bxl-facebook'></i></a>
@@ -417,7 +425,7 @@
                     <a class="btn btn-outline-light mx-1" href="#!"><i class='bx bxl-linkedin' ></i></a>
                     <a class="btn btn-outline-light mx-1" href="#!"><i class='bx bxl-dribbble' ></i></a>
                 </div>
-                <!-- about info -->
+                <!-- About info -->
                 <div class="col-lg-4">
                     <h4 class="text-uppercase mb-4">About Freelancer</h4>
                     <p class="lead mb-0">
@@ -428,7 +436,7 @@
                 </div>
             </div>
         </div>
-        <!-- copyright section -->
+        <!-- Copyright section -->
         <div class="copyright py-4">
             <div class="container"><small>Copyright &copy; Start Bootstrap 2021</small></div>
         </div>        
