@@ -157,8 +157,28 @@ footer .copyright{
     background-color: $secondary-dark;
 }
 /* Footer social buttons */
-footer .btn{
+footer .container .btn{
     font-size: 1.4rem;
     line-height: 1.5;
     border-radius: 50%;
 }
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    padding: 13px;
+    background: $primary-black;
+    border: none;
+    opacity: .5;
+    &:hover{
+        color: $primary-white;
+        background: $primary-black;
+        border: none;
+        opacity: .8;
+    }
+    i{
+        font-size: 1.5em;
+        color: $primary-white;
+    }
+} 

@@ -42,13 +42,13 @@ a {
 }
 
 .nav-link {
-  padding: 0.8em;
+  padding: .8em;
 }
 
 .nav-link.active {
   background: #1abc9c;
   border-radius: 5px;
-  padding: 0.8em;
+  padding: .8em;
 }
 
 /* Star icon size */
@@ -158,10 +158,32 @@ footer .copyright {
 }
 
 /* Footer social buttons */
-footer .btn {
+footer .container .btn {
   font-size: 1.4rem;
   line-height: 1.5;
   border-radius: 50%;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  padding: 13px;
+  background: black;
+  border: none;
+  opacity: .5;
+}
+
+.back-to-top:hover {
+  color: white;
+  background: black;
+  border: none;
+  opacity: .8;
+}
+
+.back-to-top i {
+  font-size: 1.5em;
+  color: white;
+}
 /*# sourceMappingURL=index.css.map */
