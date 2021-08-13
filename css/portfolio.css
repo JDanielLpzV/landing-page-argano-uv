@@ -17,10 +17,11 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   opacity: 0;
   transition: 0.3s ease;
+  margin: 0 4%;
   background-color: #1abc9c;
 }
 .portfolio-item:hover .overlay {
