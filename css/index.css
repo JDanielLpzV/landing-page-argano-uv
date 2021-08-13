@@ -98,12 +98,7 @@ hr {
     display: block;
     text-align: center;
     margin: auto;
-}
-
-button .close{
-    display: flex;
-    justify-content: flex-end;
-    padding: 1em 1em 0 0;
+    border-radius: 0.75em;
 }
 
 .modal hr{
@@ -120,13 +115,16 @@ button .close{
 .modal .close{
     display: flex;
     justify-content: flex-end;
-    padding: 10px 15px 0 0;
+    padding: 10px 20px 0 0;
+    font-size: 3rem;
 }
 .modal .close-modal{
     margin: auto;
     display: block;
     background-color: #1abc9c;
     color:white;
+   
+    
 }
 
 .modal-info{
@@ -134,4 +132,9 @@ button .close{
     margin: auto;
     padding: 1em 4em;
     text-align: center;
+}
+
+.modal h5{
+    font-size: 3rem;
+    line-height: 2.5rem;
 }
