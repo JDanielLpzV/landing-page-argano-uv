@@ -42,13 +42,13 @@ a {
 }
 
 .nav-link {
-  padding: .8em;
+  padding: 0.8em;
 }
 
 .nav-link.active {
   background: #1abc9c;
   border-radius: 5px;
-  padding: .8em;
+  padding: 0.8em;
 }
 
 /* Star icon size */
@@ -163,4 +163,5 @@ footer .btn {
   line-height: 1.5;
   border-radius: 50%;
 }
+
 /*# sourceMappingURL=index.css.map */

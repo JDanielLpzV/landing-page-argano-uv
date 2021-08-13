@@ -3,12 +3,16 @@
   height: 100%;
   background: white;
 }
+#portfolio .container-fluid {
+  padding-top: 3%;
+}
 #portfolio hr {
-  background: #1abc9c;
+  background: #2c3e50;
 }
 #portfolio .portfolio-container {
   height: 100%;
   width: 100%;
+  padding-top: 10px;
 }
 #portfolio .portfolio-container .portfolio-item img {
   width: 100%;
