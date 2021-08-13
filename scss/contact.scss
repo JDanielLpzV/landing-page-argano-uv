@@ -1,9 +1,9 @@
 @import "colors.scss";
-$vheight: 100vh;
+$vheight: 100%;
 
 #contact {
   background: $primary-white;
-  height: $vheight - 20vh;
+  height: $vheight - 20%;
   padding: 9%;
   hr {
     background: $primary-dark;
@@ -63,7 +63,7 @@ input[type="number"]:focus,
 //Small devices
 @media (min-width: 576px) {
   #contact {
-    height: 85vh;
+    height: 85%;
     padding: 8%;
     form {
       width: 100%;
@@ -73,7 +73,7 @@ input[type="number"]:focus,
 //Medium devices
 @media (min-width: 768px) {
   #contact {
-    height: 90vh;
+    height: 90%;
     padding: 9%;
     form {
       width: 60%;
@@ -83,7 +83,7 @@ input[type="number"]:focus,
 //Large devices
 @media (min-width: 992px) {
   #contact {
-    height: 95vh;
+    height: 95%;
     padding: 9%;
     .title-section {
       font-size: 3rem;
@@ -97,7 +97,7 @@ input[type="number"]:focus,
 //extra-large devices
 @media (min-width: 1200px) {
   #contact {
-    height: 100vh;
+    height: 100%;
     padding: 8%;
     form {
       width: 65%;
