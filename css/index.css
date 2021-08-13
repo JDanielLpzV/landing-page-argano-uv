@@ -74,14 +74,18 @@ hr {
     border-radius: 5px;
 }
 
+.start-content  {
+    line-height: 3.5rem;
+    padding: 6rem;
+}
+
 .start-title{
     font-size: 4rem;
     line-height: 3.5rem;
     font-weight: revert;
+    
 }
-.start-content  {
-    line-height: 3.5rem;
-}
+
 .start-subtitule{
     font-size:1.4em;
 }
