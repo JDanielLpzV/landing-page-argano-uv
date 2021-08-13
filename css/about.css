@@ -5,6 +5,7 @@ No media query since this is the default in Bootstrap */
   background: hsl(168, 76%, 42%);
   width: 100%;
   height: 100%;
+  padding: 6rem;
 }
 .lead {
   font-size: 1.25rem;
