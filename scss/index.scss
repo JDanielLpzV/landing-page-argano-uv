@@ -32,12 +32,12 @@ a {
     z-index: 2;
     height: auto;
     padding: 1.2em 8%;
+    a{
+        color: $primary-white;
+        transform: $flattened-text;
+    }
 }
 
-.navbar a{
-    color: $primary-white;
-    transform: $flattened-text;
-}
 /* Menu title logo */
  .navbar-brand {
     font-size: 1.75em;
@@ -71,97 +71,98 @@ hr {
 .start-content  {
     line-height: 3.5rem;
     padding: 6rem;
-}
-
-.start-title{
-    font-size: 4rem;
-    line-height: 3.5rem;
-    font-weight: revert;
-    
-}
-
-.start-subtitule{
-    font-size:1.4em;
+    .title{
+        font-size: 4rem;
+        line-height: 3.5rem;
+        font-weight: revert;
+        
+    }
+    .subtitule{
+        font-size:1.4em;
+    }
 }
 
 
 /* Modals style*/
-.modal-dialog{
-    max-width: 1140px;
-    
-}
-.modal-content{
-    border-radius: 0.75em;
-    color: $primary-dark;
-}
-.modal-body{
-    max-width: 750px;
-    margin: auto;
-}
-.modal img{
-    display: block;
-    text-align: center;
-    margin: auto;
-    border-radius: 0.75em;
-}
+.modal {
 
-.modal hr{
-    background-color: $primary-black;
-    
+    .modal-dialog{
+        max-width: 1140px;
+        
+    }
+    .modal-content{
+        border-radius: 0.75em;
+        color: $primary-dark;
+    }
+    .modal-body{
+        max-width: 750px;
+        margin: auto;
+    }
+    img{
+        display: block;
+        text-align: center;
+        margin: auto;
+        border-radius: 0.75em;
+    }
+    hr{
+        background-color: $primary-black;
+        
+    }
+    .divider-custom {
+        display: flex;
+        margin: auto;
+        
+    }
+    .close{
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px 20px 0 0;
+        font-size: 3rem;
+    }
+    .close-modal{
+        margin: auto;
+        background-color: $primary-green;
+        color: $primary-white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    i{
+        font-size:1.5em;
+    }
+    h5{
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+    .modal-info{
+        width: $full-with;
+        margin: auto;
+        padding: 1em 4em;
+        text-align: center;
+    }
 }
-
-  .modal .divider-custom {
-    display: flex;
-    margin: auto;
-    
-}
-
-.modal .close{
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px 20px 0 0;
-    font-size: 3rem;
-}
-.modal .close-modal{
-    margin: auto;
-    background-color: $primary-green;
-    color: $primary-white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.modal i{
-    font-size:1.5em;
-}
-
-.modal-info{
-    width: $full-with;
-    margin: auto;
-    padding: 1em 4em;
-    text-align: center;
-}
-
-.modal h5{
-    font-size: 3rem;
-    line-height: 2.5rem;
-}
-/* End Modals style*/
+ 
 
 /* Footer style*/
 footer{
+
     color: $primary-white;
     background-color: $primary-dark;
+
+    /* Footer Copyright sections */
+    .copyright{
+        background-color: $secondary-dark;
+    }
+    /* Footer social buttons */
+    .container .btn{
+        font-size: 1.4rem;
+        line-height: 1.5;
+        border-radius: 50%;
+    }
 }
-footer .copyright{
-    background-color: $secondary-dark;
-}
-/* Footer social buttons */
-footer .container .btn{
-    font-size: 1.4rem;
-    line-height: 1.5;
-    border-radius: 50%;
-}
+
+/* Back to tup arrow button */
 .back-to-top {
     position: fixed;
     bottom: 25px;

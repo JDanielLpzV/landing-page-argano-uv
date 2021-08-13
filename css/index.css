@@ -73,27 +73,27 @@ hr {
   padding: 6rem;
 }
 
-.start-title {
+.start-content .title {
   font-size: 4rem;
   line-height: 3.5rem;
   font-weight: revert;
 }
 
-.start-subtitule {
+.start-content .subtitule {
   font-size: 1.4em;
 }
 
 /* Modals style*/
-.modal-dialog {
+.modal .modal-dialog {
   max-width: 1140px;
 }
 
-.modal-content {
+.modal .modal-content {
   border-radius: 0.75em;
   color: #2c3e50;
 }
 
-.modal-body {
+.modal .modal-body {
   max-width: 750px;
   margin: auto;
 }
@@ -134,36 +134,37 @@ hr {
   font-size: 1.5em;
 }
 
-.modal-info {
+.modal h5 {
+  font-size: 3rem;
+  line-height: 2.5rem;
+}
+
+.modal .modal-info {
   width: 100%;
   margin: auto;
   padding: 1em 4em;
   text-align: center;
 }
 
-.modal h5 {
-  font-size: 3rem;
-  line-height: 2.5rem;
-}
-
-/* End Modals style*/
 /* Footer style*/
 footer {
   color: white;
   background-color: #2c3e50;
+  /* Footer Copyright sections */
+  /* Footer social buttons */
 }
 
 footer .copyright {
   background-color: #1b2631;
 }
 
-/* Footer social buttons */
 footer .container .btn {
   font-size: 1.4rem;
   line-height: 1.5;
   border-radius: 50%;
 }
 
+/* Back to tup arrow button */
 .back-to-top {
   position: fixed;
   bottom: 25px;
