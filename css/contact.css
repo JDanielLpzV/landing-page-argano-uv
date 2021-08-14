@@ -1,20 +1,21 @@
 #contact {
   background: white;
-  height: 80%;
-  padding: 9%;
+  padding: 5em 1em;
 }
+
 #contact hr {
   background: #2c3e50;
 }
+
 #contact .title-section {
   font-size: 2.3em;
   line-height: 2rem;
 }
 
 form {
-  margin-top: 50px;
   width: 95%;
 }
+
 form .btn {
   background: #1abc9c;
   color: white;
@@ -31,13 +32,13 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
 }
 
-input[type=text],
-input[type=tel],
-input[type=email],
+input[type="text"],
+input[type="tel"],
+input[type="email"],
 textarea {
   background-color: white !important;
   border: none !important;
@@ -47,14 +48,14 @@ textarea {
 textarea:focus,
 textarea.form-control:focus,
 input.form-control:focus,
-input[type=text]:focus,
-input[type=password]:focus,
-input[type=email]:focus,
-input[type=number]:focus,
-[type=text].form-control:focus,
-[type=password].form-control:focus,
-[type=email].form-control:focus,
-[type=tel].form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
 [contenteditable].form-control:focus {
   box-shadow: inset 0 -1px 0 #ddd;
 }
@@ -68,6 +69,7 @@ input[type=number]:focus,
     width: 100%;
   }
 }
+
 @media (min-width: 768px) {
   #contact {
     height: 90%;
@@ -77,6 +79,7 @@ input[type=number]:focus,
     width: 60%;
   }
 }
+
 @media (min-width: 992px) {
   #contact {
     height: 95%;
@@ -90,14 +93,13 @@ input[type=number]:focus,
     width: 60%;
   }
 }
+
 @media (min-width: 1200px) {
   #contact {
-    height: 100%;
-    padding: 8%;
+    padding: 5em 1em;
   }
   #contact form {
     width: 65%;
   }
 }
-
 /*# sourceMappingURL=contact.css.map */

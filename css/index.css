@@ -60,17 +60,17 @@ a {
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  border: 0;
-  font-size: 20px;
-  height: 3px;
+  border: 1em;
+  height: 4px;
   background: white;
   border-radius: 5px;
+  width: 7em;
 }
 
 /* Start or first section*/
 .start-content {
   line-height: 3.5rem;
-  padding: 6rem;
+  padding: 5em 0;
 }
 
 .start-content .title {
@@ -81,6 +81,15 @@ hr {
 
 .start-content .subtitule {
   font-size: 1.4em;
+}
+
+@media (max-width: 576px) {
+  hr {
+    width: 4em;
+  }
+  .start-content .title {
+    font-size: 3rem;
+  }
 }
 
 /* Modals style*/
@@ -135,14 +144,14 @@ hr {
 }
 
 .modal h5 {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 2.5rem;
 }
 
 .modal .modal-info {
   width: 100%;
   margin: auto;
-  padding: 1em 4em;
+  padding: 1em 2em;
   text-align: center;
 }
 
